@@ -11,6 +11,7 @@
 // - A cada palpite:
 //   - Se o palpite for menor que o número secreto, o programa informa que o número secreto é maior.
 //   - Se o palpite for maior que o número secreto, o programa informa que o número secreto é menor.
+
 // ************************************************************
 
 function executarDesafios() {
