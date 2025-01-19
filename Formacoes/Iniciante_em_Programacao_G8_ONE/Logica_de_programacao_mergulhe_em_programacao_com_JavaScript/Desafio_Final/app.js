@@ -18,7 +18,7 @@ function executarDesafios() {
     alert('Boas-vindas ao jogo do número secreto!');
 
     // Gera um número secreto entre 1 e N
-	let N = 100
+    let N = 100
     let numeroSecreto = Math.floor(Math.random() * N) + 1;
     console.log(`O número secreto sorteado é ${numeroSecreto}`);
 
