@@ -110,6 +110,7 @@ Adicione uma imagem ao seu site pessoal. Escolha uma imagem (como um logo ou fot
                 <small>Illustration by <a href="https://icons8.com/illustrations/author/ARh4OKrFtdfC">Pixeltrue Ouch!</a></small>
             </figcaption>
         </figure>
+        <!-- Adiciona uma imagem com acessibilidade -->
     </body>
 </html>
 ```
@@ -146,6 +147,7 @@ Adicione uma lista de itens ao seu site, como características do projeto, etapa
                 <small>Illustration by <a href="https://icons8.com/illustrations/author/ARh4OKrFtdfC">Pixeltrue Ouch!</a></small>
             </figcaption>
         </figure>
+        <!-- Adiciona uma imagem com acessibilidade -->
     </body>
 </html>
 ```
