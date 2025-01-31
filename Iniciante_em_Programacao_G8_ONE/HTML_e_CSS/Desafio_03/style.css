@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+/* Importa as fontes "Krona One" e "Montserrat" do Google Fonts para uso no projeto */
+
+* {
+    margin: 0;
+    /* Remove margens padrão de todos os elementos */
+    padding: 0;
+    /* Remove preenchimentos padrão de todos os elementos */
+}
+
+body {
+    height: 100vh;
+    /* Define a altura do body como 100% da altura da tela */
+    box-sizing: border-box;
+    /* Inclui padding e borda nas dimensões do elemento */
+    background-color: #000000;
+    /* Cor de fundo: preto */
+    color: #F6F6F6;
+    /* Cor do texto: branco */
+}
+
+.titulo-destaque {
+    color: #C25BD7;
+    /* Cor: roxo para destacar títulos ou palavras */
+}
+
+.apresentacao {
+    margin: 10% 25%;
+    /* Margem de 10% no topo/baixo e 25% nas laterais */
+    display: flex;
+    /* Ativa o layout Flexbox */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    justify-content: space-between;
+    /* Distribui os itens com espaço entre eles */
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+    /* Largura fixa do contêiner */
+    display: flex;
+    /* Ativa o layout Flexbox */
+    flex-direction: column;
+    /* Organiza os itens em coluna */
+    gap: 60px;
+    /* Espaçamento de 60px entre os itens */
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    /* Tamanho da fonte */
+    font-family: "Krona One", serif;
+    /* Fonte "Krona One" para títulos */
+}
+
+.apresentacao_conteudo_paragrafo {
+    font-size: 24px;
+    /* Tamanho da fonte */
+    font-family: "Montserrat", serif;
+    /* Fonte "Montserrat" para parágrafos */
+    font-weight: 400;
+    /* Peso da fonte (normal) */
+}
+
+.apresentacao_conteudo_liks {
+    display: flex;
+    /* Ativa o layout Flexbox */
+    justify-content: space-between;
+    /* Distribui os links com espaço entre eles */
+}
+
+.apresentacao_conteudo_liks_link {
+    background-color: #C25BD7;
+    /* Cor de fundo: roxo */
+    width: 280px;
+    /* Largura fixa do link */
+    text-align: center;
+    /* Centraliza o texto horizontalmente */
+    text-decoration: none;
+    /* Remove sublinhado padrão */
+    border-radius: 16px;
+    /* Bordas arredondadas */
+    padding: 21.5px 0;
+    /* Espaçamento interno vertical */
+    color: #000000;
+    /* Cor do texto: preto */
+    font-size: 24px;
+    /* Tamanho da fonte */
+    font-family: "Montserrat", serif;
+    /* Fonte "Montserrat" */
+    font-weight: 600;
+    /* Peso da fonte (semi-negrito) */
+}
+
+a:hover {
+    background-color: #A15BD7; 
+    /* Altera a cor de fundo ao passar o mouse */
+    transition: background-color 0.3s ease; 
+    /* Adiciona transição suave para mudança de cor */
+}
